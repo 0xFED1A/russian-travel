@@ -1,0 +1,19 @@
+/* rules for page__grid-container element */
+
+.page__grid-container {
+  width: calc(100% - (48px * 2));
+  max-width: 1280px;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 18px;
+  row-gap: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .page__grid-container {
+    column-gap: 16px;
+  }
+}

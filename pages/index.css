@@ -8,6 +8,7 @@
 
 /* import page */
 @import url("../blocks/page/page.css");
+@import url("../blocks/page/__grid-container/page__grid-container.css");
 
 /* import header */
 @import url("../blocks/header/header.css");
