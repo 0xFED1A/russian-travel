@@ -1,0 +1,28 @@
+/* rules for header__inner element */
+
+.header__inner {
+  margin: 28px 0 56px 0;
+
+  display: flex;
+  justify-content: space-between;
+
+  grid-column: 1 / -1;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .header__inner {
+    margin: 28px 0 48px 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .header__inner {
+    margin: 28px 24px 48px 24px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .header__inner {
+    margin: 16px 16px 48px 16px;
+  }
+}
