@@ -1,0 +1,9 @@
+/* rules for header__logo element */
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+
+  background: top left / contain no-repeat
+    url("../../../images/logo/header__logo_size_l.svg");
+}
