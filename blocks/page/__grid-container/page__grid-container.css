@@ -17,3 +17,18 @@
     column-gap: 16px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .page__grid-container {
+    width: 100%;
+
+    grid-template-columns: 1fr; 
+    column-gap: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__grid-container {
+
+  }
+}
