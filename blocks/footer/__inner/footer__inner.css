@@ -1,8 +1,0 @@
-/* rules for footer__inner element */
-
-.footer__inner {
-  display: flex;
-  justify-content: space-between;
-
-  grid-column: 1 / -1;
-}

@@ -1,6 +1,0 @@
-/* rules for places__picture element */
-
-.places__picture {
-  grid-column: 1;
-  grid-row: 2;
-}

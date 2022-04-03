@@ -1,7 +1,0 @@
-/* rules for footer__nav element */
-
-.footer__nav {
-  display: flex;
-  justify-content: space-between;
-  column-gap: 18px;
-}

@@ -1,9 +1,0 @@
-/* rules for cover__overlay element */
-
-.cover__overlay {
-  background-color: #2a2c2f;
-  opacity: 0.7; 
-
-  grid-column: 1;
-  grid-row: 1;
-}
