@@ -6,19 +6,7 @@
   font-weight: 400;
   text-decoration: none;
 
-  /* this hack required to make equal Y position
-   * for both _selected and usual type of elements
-   */
-  border-bottom: 2px solid #2a2c2f;
-
   color: #fff;  
 
   position: relative;
-}
-
-@media screen and (max-width: 320px) {
-  .header__lang-select-elem {
-    font-size: 18px;
-    line-height: 20px;
-  }
 }

@@ -1,5 +1,18 @@
 /* rules for header__lang-select-elem_selected modifier */
 
 .header__lang-select-elem_selected {
-  border-bottom: 2px solid #fff;
+
+}
+
+.header__lang-select-elem_selected::before {
+  width: 100%;
+  height: 2px;
+
+  content: "";
+
+  background-color: #fff;
+
+  position: absolute;
+  bottom: -4px;
+  left: 0;
 }
