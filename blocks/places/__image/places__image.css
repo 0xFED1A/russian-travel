@@ -1,0 +1,5 @@
+/* rules for places__image element */
+
+.places__image {
+  max-width: 100%;
+}

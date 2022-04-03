@@ -1,0 +1,10 @@
+/* rules for intro__list-elem-text */
+
+.intro__list-elem-text {
+  margin: 0;
+  padding:0;
+
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400px;
+}

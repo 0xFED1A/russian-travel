@@ -8,7 +8,7 @@
     url("../../../images/logo/logo.svg");
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header__logo {
     width: 142px;
     height: 42px;

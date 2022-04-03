@@ -1,0 +1,21 @@
+/* rules for places__list-item element */ 
+
+.places__list-item {
+  margin: 0 0 80px 0;
+}
+
+.places__list-item:last-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__list-item {
+    margin: 0 0 73px 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places__list-item {
+    margin: 0 0 50px 0;
+  }
+}

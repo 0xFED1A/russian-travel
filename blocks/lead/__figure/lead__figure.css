@@ -1,6 +1,8 @@
 /* rules for lead__figure element */
 
 .lead__figure {
+  width: 100%;
+
   margin: 64px 0 0 0;
 }
 
@@ -10,7 +12,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .lead__figure {
     margin: 40px 0 0 0;
   }

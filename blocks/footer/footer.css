@@ -1,0 +1,7 @@
+/* rules for footer block */
+
+.footer {
+  /* поправить!! Там марджин 0 авто */
+  margin-top: 92px;
+  margin-bottom: 24px;
+}
