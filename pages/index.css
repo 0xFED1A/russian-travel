@@ -1,10 +1,8 @@
 /* import */
 
-/* import normalize */
-@import url("../vendor/normalize.css");
+/* import
 
 /* import fonts */
-@import url("../vendor/fonts/fonts.css");
 
 /* import page */
 @import url("../blocks/page/page.css");

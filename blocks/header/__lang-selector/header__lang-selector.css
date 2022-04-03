@@ -1,8 +1,0 @@
-/* rules for header__lang-selector element */
-
-.header__lang-selector {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  column-gap: 18px;
-}
