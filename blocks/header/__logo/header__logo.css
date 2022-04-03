@@ -1,0 +1,16 @@
+/* rules for header__logo element */
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+
+  background: top left / contain no-repeat
+    url("../../../images/logo/logo.svg");
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}

@@ -1,0 +1,5 @@
+/* rules for header__lang-switch_selected modifier */
+
+.header__lang-switch_selected {
+  border-bottom: 2px solid #fff;
+}
