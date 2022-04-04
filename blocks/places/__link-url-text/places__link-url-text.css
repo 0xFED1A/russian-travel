@@ -1,0 +1,10 @@
+/* rules for places__link-url-text element */
+
+.places__link-url-text {
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+
+  color: #aaa;
+}

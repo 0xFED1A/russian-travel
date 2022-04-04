@@ -1,0 +1,7 @@
+/* rules for places__link-container element */
+
+.places__link-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

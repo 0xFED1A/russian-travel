@@ -1,0 +1,11 @@
+/* rules for places block */
+
+.places {
+  grid-column: 2 / -2;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .places {
+    grid-column: 1 / -1;
+  }
+}
