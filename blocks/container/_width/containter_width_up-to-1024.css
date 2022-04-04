@@ -1,7 +1,7 @@
-/* rules for container_width_full-at-768 modifier */
+/* rules for container_width_up-to-1024 modifier */
 
 @media screen and (min-width: 320px) and (max-width: 1023px) {
-  .container_width_full-at-320 {
+  .container_width_up-to-1024 {
     width: 100%;
   }
 }
