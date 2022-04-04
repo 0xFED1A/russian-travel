@@ -17,7 +17,7 @@
     <header class="header container container_type_flex">
       <div class="header__logo"></div>
       <div class="header__lang-switch-box">
-        <a class="header__lang-switch header__lang-switch_selected" href="#">Ru</a >
+        <a class="header__lang-switch header__lang-switch_selected" href="#">Ru</a>
         <a class="header__lang-switch" href="#">En</a>
       </div>
     </header>
@@ -344,14 +344,71 @@
       </section>
 
       <section class="places container container_type_grid">
-        
-      </section>
-
-      <section class="cover">
 
       </section>
+
+      <div class="container container_width_full-at-1024">
+        <section class="cover">
+          <div class="cover__overlay">
+            <picture class="cover__picture">
+              <source
+                class="cover__src cover__src_s_desktop"
+                media="(min-width: 1280px)"
+                srcset="
+                  ./images/cover/desktop/cover_desktop_1x.jpg 1x,
+                  ./images/cover/desktop/cover_desktop_2x.jpg 2x,
+                  ./images/cover/desktop/cover_desktop_3x.jpg 3x
+                "
+                type="image/jpeg"
+              />
+              <source
+                class="cover__src cover__src_s_pad-horiz"
+                media="(min-width: 768px) and (max-width: 1279px)"
+                srcset="
+                  ./images/cover/pad-horiz/cover_pad-horiz_1x.jpg 1x,
+                  ./images/cover/pad-horiz/cover_pad-horiz_2x.jpg 2x,
+                  ./images/cover/pad-horiz/cover_pad-horiz_3x.jpg 3x
+                "
+                type="image/jpeg"
+              />
+              <source
+                class="cover__src cover__src_s_pad-vert"
+                media="(min-width: 425px) and (max-width: 767px)"
+                srcset="
+                  ./images/cover/pad-vert/cover_pad-vert_1x.jpg 1x,
+                  ./images/cover/pad-vert/cover_pad-vert_2x.jpg 2x,
+                  ./images/cover/pad-vert/cover_pad-vert_3x.jpg 3x
+                "
+                type="image/jpeg"
+              />
+              <source
+                class="cover__src cover__src_s_mobile"
+                media="(min-width: 320px) and (max-width: 424px)"
+                srcset="
+                  ./images/cover/mobile/cover_mobile_1x.jpg 1x,
+                  ./images/cover/mobile/cover_mobile_2x.jpg 2x,
+                  ./images/cover/mobile/cover_mobile_3x.jpg 3x
+                "
+                type="image/jpeg"
+              />
+              <img
+                class="cover__illustration"
+                src="./images/cover/pad-horiz/cover_pad-horiz_1x.jpg"
+                alt="Железнодорожная станция на фоне лучей заката"
+              />
+            </picture>
+          </div>
+          <div class="cover__title-container">
+            <h3 class="cover__title">До Байкала «на собаках»</h3>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
+          </div>
+        </section>
+      </div>
     </main>
-
+    <!--
     <footer class="footer container container_type_flex">
       <nav class="footer__nav">
         <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
@@ -362,5 +419,6 @@
       </nav>
       <p class="footer__copy">© 2020. Впишите своё имя</p>
     </footer>
+-->
   </body>
 </html>
