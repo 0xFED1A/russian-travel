@@ -1,6 +1,8 @@
 /* rules for places__text element */
 
 .places__text {
+  max-width: 480px;
+
   margin: 0 0 26px 0;
 
   font-size: 18px;
