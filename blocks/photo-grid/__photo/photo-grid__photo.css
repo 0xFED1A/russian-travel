@@ -1,0 +1,5 @@
+/* rules for photo-grid element */
+
+.photo-grid__photo {
+  width: 100%;
+}

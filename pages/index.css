@@ -41,6 +41,10 @@
 @import url("../blocks/intro/__feature-descr/intro__feature-descr.css");
 @import url("../blocks/intro/__feature-counter/intro__feature-counter.css");
 
+/* import photo-grid */
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/photo-grid/__photo/photo-grid__photo.css");
+
 /* import cover */
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__illustration/cover__illustration.css");
