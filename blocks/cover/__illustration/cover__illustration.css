@@ -1,13 +1,5 @@
-/* rules for cover__image element */
+/* rules for cover__illustration element */
 
 .cover__illustration {
   width: 100%;
 }
-
-/*
-@media screen and (min-width: 320px) and (max-width: 1279px) {
-  .cover__illustration {
-    width: 100%;
-  }
-}
-*/

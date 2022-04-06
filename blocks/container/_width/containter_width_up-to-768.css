@@ -1,4 +1,4 @@
-/* rules for container_width_768 modifier */
+/* rules for container_width_up-to-768 modifier */
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container_width_up-to-768 {

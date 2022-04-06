@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="О путешествиях по России" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="О путешествиях по России">
     <meta
       name="keywords"
       content="путешествия, Россия, Кольский, Алтай, Байкал, Карелия"
-    />
-    <meta name="author" content="Федор Шенделов" />
+    >
+    <meta name="author" content="Федор Шенделов">
     <title>Путешествия по России</title>
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./pages/index.css">
   </head>
   <body class="page">
-
     <header class="header container container_type_flex">
       <div class="header__logo"></div>
       <div class="header__lang-switch-box">
@@ -21,7 +20,6 @@
         <a class="header__lang-switch" href="#">En</a>
       </div>
     </header>
-
     <main class="content">
       <div class="container container_type_grid container_width_up-to-1024">
         <section class="lead">
@@ -44,7 +42,7 @@
                   ./images/lead/desktop/lead_desktop_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <source
                 class="lead__src lead__src_s_pad-horiz"
                 media="(min-width: 768px) and (max-width: 1279px)"
@@ -54,7 +52,7 @@
                   ./images/lead/pad-horiz/lead_pad-horiz_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <source
                 class="lead__src lead__src_s_pad-vert"
                 media="(min-width: 425px) and (max-width: 767px)"
@@ -64,7 +62,7 @@
                   ./images/lead/pad-vert/lead_pad-vert_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <source
                 class="lead__src lead__src_s_mobile"
                 media="(min-width: 320px) and (max-width: 424px)"
@@ -74,32 +72,31 @@
                   ./images/lead/mobile/lead_mobile_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="lead__illustration"
                 src="./images/lead/pad-horiz/lead_pad-horiz_1x.jpg"
                 alt="Фото женщины в платцкартном вагоне, на фоне фото - карта"
-              />
+              >
             </picture>
             <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
           </figure>
         </section>
       </div>
-
       <div class="container container_margin_std-margin-top container_type_grid">
         <section class="intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">
-            По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
-            36% планируют провести отпуск в родной стране. Мол, чего мы тут,
-            дома, не видели? На самом деле, Россия — это целая вселенная с
+            По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
+            только 36% планируют провести отпуск в родной стране. Мол, чего мы
+            тут, дома, не видели? На самом деле, Россия — это целая вселенная с
             ласковым морем юга, густыми лесами Саян и суровыми льдами плато
-            Путорана. А ещё увидеть все эти красоты можно без миллионов на счету,
-            загранпаспорта и многочасовых перелетов. Как, например, Вера
-            Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
-            усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
-            стране. Мы выбрали и описали некоторые интересные места, достойные
-            вашего отпуска.
+            Путорана. А ещё увидеть все эти красоты можно без миллионов на
+            счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
+            Башмакова — смелая молодая мама, которая взяла в охапку троих
+            детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по
+            родной стране. Мы выбрали и описали некоторые интересные места,
+            достойные вашего отпуска.
           </p>
           <ul class="intro__feature-list">
             <li class="intro__feature-list-item">
@@ -107,11 +104,15 @@
               <span class="intro__feature-counter">11</span>
             </li>
             <li class="intro__list-elem">
-              <span class="intro__feature-descr">Объектов природного наследия ЮНЕСКО </span>
+              <span class="intro__feature-descr">
+                Объектов природного наследия ЮНЕСКО 
+              </span>
               <span class="intro__feature-counter">12</span>
             </li>
             <li class="intro__list-elem">
-              <span class="intro__feature-descr">Объектов культурного наследия ЮНЕСКО </span>
+              <span class="intro__feature-descr">
+                Объектов культурного наследия ЮНЕСКО 
+              </span>
               <span class="intro__feature-counter">16</span>
             </li>
             <li class="intro__list-elem">
@@ -125,10 +126,9 @@
           </ul>
         </section>
       </div>
-      
       <div class="container container_margin_std-margin-top container_type_grid">
-        <section class="photo-grid">
-          <article class="photo-grid__item">
+        <section class="photo-grid" aria-label="Галерея фотографий">
+          <article class="photo-grid__item" aria-label="Вид из окна вагона">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -138,15 +138,15 @@
                   ./images/photo-grid/3x/photo-grid_train_window_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_train_window_1x.jpg"
                 alt="Вид из окна вагона в поезде"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Вид на горы">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -156,15 +156,15 @@
                   ./images/photo-grid/3x/photo-grid_mountain_clouds_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_mountain_clouds_1x.jpg"
                 alt="Вид сверху на заснеженные горы, покрытые густыми облаками"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Собака на сене">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -174,15 +174,15 @@
                   ./images/photo-grid/3x/photo-grid_dog_on_haystack_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_dog_on_haystack_1x.jpg"
                 alt="Фотография собаки, стоящей на рулоне сена"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Вершины елей">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -192,15 +192,15 @@
                   ./images/photo-grid/3x/photo-grid_cloudy_taiga_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_cloudy_taiga_1x.jpg"
                 alt="Вид сверху на вершниы елей, покрытх туманом"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Колесо на льду">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -210,15 +210,15 @@
                   ./images/photo-grid/3x/photo-grid_uaz_on_ice_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_uaz_on_ice_1x.jpg"
                 alt="Колесо УАЗа стоящего на прозрачном льду"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Прибрежный пейзаж">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -228,15 +228,15 @@
                   ./images/photo-grid/3x/photo-grid_sea_shore_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_sea_shore_1x.jpg"
                 alt="Прибрежный пейзаж: волны и песчанный берег, на фоне гор"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Скалистые горы">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -246,15 +246,15 @@
                   ./images/photo-grid/3x/photo-grid_rocky_mountains_with_snow_on_top_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_rocky_mountains_with_snow_on_top_1x.jpg"
                 alt="Скалистые горы, вершины которых покрыты снегом"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Пешеходный переход">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -264,15 +264,15 @@
                   ./images/photo-grid/3x/photo-grid_crosswalk_sign_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_crosswalk_sign_1x.jpg"
                 alt="Знак пешеходного перехода на фоне железобетонных изделий"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Ручей в тумане">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -282,15 +282,15 @@
                   ./images/photo-grid/3x/photo-grid_mountain_creek_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_mountain_creek_1x.jpg"
                 alt="Горный ручей окутанный туманом"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Тундровое поле">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -300,15 +300,15 @@
                   ./images/photo-grid/3x/photo-grid_north_field_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_north_field_1x.jpg"
                 alt="Тундровое поле на фоне горы?"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Скалистый берег">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -318,15 +318,15 @@
                   ./images/photo-grid/3x/photo-grid_rocky_coast_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_rocky_coast_1x.jpg"
                 alt="Побережье возле скалистого обрыва"
-              />
+              >
             </picture>
           </article>
-          <article class="photo-grid__item">
+          <article class="photo-grid__item" aria-label="Облака на пиках">
             <picture class="photo-grid__picture">
               <source
                 class="photo-grid__src"
@@ -336,29 +336,34 @@
                   ./images/photo-grid/3x/photo-grid_clouds_over_spikes_3x.jpg 3x
                 "
                 type="image/jpeg"
-              />
+              >
               <img
                 class="photo-grid__photo"
                 src="./images/photo-grid/1x/photo-grid_clouds_over_spikes_1x.jpg"
                 alt="Облака нанизанные на скальные пики"
-              />
+              >
             </picture>
           </article>
         </section>
       </div>
-      
-      <div class="container container_margin_std-margin-top container_type_grid container_width_up-to-768">
-      <section class="places">
+      <div class="container container_margin_std-margin-top container_type_grid container_width_up-to-768" >
+        <section class="places" aria-label="Места России">
           <ul class="places__list">
             <li class="places__list-item">
               <article class="places__article">
                 <h3 class="places__title">Куршская коса</h3>
                 <div class="places__link-container">
                   <span class="places__link-url-text">URL</span>
-                  <a class="places__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+                  <a
+                    class="places__link"
+                    href="http://park-kosa.ru"
+                    target="_blank"
+                  >
+                    park-kosa.ru
+                  </a>
                 </div>
                 <picture class="places__picture">
-                  <source 
+                  <source
                     class="places__src"
                     srcset="
                       ./images/places/1x/places_kosa_1x.jpg 1x,
@@ -366,26 +371,27 @@
                       ./images/places/3x/places_kosa_3x.jpg 3x
                     "
                     type="image/jpeg"
-                  />
+                  >
                   <img
                     class="places__image"
                     src="./images/places/1x/places_kosa_1x.jpg"
                     alt="Куршская коса: мелководье, берег, и небо"
-                    />
+                  >
                 </picture>
                 <div class="places__text-container">
                   <p class="places__text">
-                    Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
-                    спокойного Куршского залива с одной стороны и подёрнутого рябью волн
-                    Балтийского моря с другой. Уникальная природная зона на краю российского
-                    анклава.
+                    Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
+                    водных горизонта — спокойного Куршского залива с одной
+                    стороны и подёрнутого рябью волн Балтийского моря с другой.
+                    Уникальная природная зона на краю российского анклава.
                   </p>
                   <p class="places__text">
-                  На этом Калининградская область не заканчивается. Для путешественника и
-                    исследователя там же по соседству — самая западная точка России, Балтийская
-                    коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера
-                    здешних мест исключает суету, окуная в спокойствие природы и запах стального,
-                    прохладного моря.
+                    На этом Калининградская область не заканчивается. Для
+                    путешественника и исследователя там же по соседству — самая
+                    западная точка России, Балтийская коса, — и немецкое
+                    наследие россыпи небольших приморских городов. Атмосфера
+                    здешних мест исключает суету, окуная в спокойствие природы
+                    и запах стального, прохладного моря.
                   </p>
                 </div>
               </article>
@@ -395,13 +401,16 @@
                 <h3 class="places__title">Кольский</h3>
                 <div class="places__link-container">
                   <span class="places__link-url-text">URL</span>
-                  <a class="places__link"
-                     href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
-
-                     target="_blank">National Geographic</a>
+                  <a
+                    class="places__link"
+                    href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
+                    target="_blank"
+                  >
+                    National Geographic
+                  </a>
                 </div>
                 <picture class="places__picture">
-                  <source 
+                  <source
                     class="places__src"
                     srcset="
                       ./images/places/1x/places_kolsky_1x.jpg 1x,
@@ -409,12 +418,12 @@
                       ./images/places/3x/places_kolsky_3x.jpg 3x
                     "
                     type="image/jpeg"
-                  />
+                  >
                   <img
                     class="places__image"
                     src="./images/places/1x/places_kolsky_1x.jpg"
                     alt="Заснеженные скалы и морской прибой"
-                    />
+                  >
                 </picture>
                 <div class="places__text-container">
                   <p class="places__text">
@@ -424,12 +433,12 @@
                   </p>
                   <p class="places__text">
                     Возможно, вы смотрели Звягинцева и даже слышали историю
-                    арктического фестиваля в Териберке. Возможно, слово «Хибины»
-                    не осталось под снегом школьных воспоминаний об уроках
-                    географии. Возможно, вы не интересовались пронизывающей
-                    земную кору сверхглубокой скважиной, а от апатитов вас давно
-                    накрывает апатия. Но ваша мечта увидеть северное сияние
-                    начинает сбываться с билетом в Мурманск.
+                    арктического фестиваля в Териберке. Возможно, слово
+                    «Хибины» не осталось под снегом школьных воспоминаний об
+                    уроках географии. Возможно, вы не интересовались
+                    пронизывающей земную кору сверхглубокой скважиной, а от
+                    апатитов вас давно накрывает апатия. Но ваша мечта увидеть
+                    северное сияние начинает сбываться с билетом в Мурманск.
                   </p>
                 </div>
               </article>
@@ -439,13 +448,16 @@
                 <h3 class="places__title">Алтай</h3>
                 <div class="places__link-container">
                   <span class="places__link-url-text">URL</span>
-                  <a class="places__link"
-                     href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
-
-                     target="_blank">Facebook</a>
+                  <a
+                    class="places__link"
+                    href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
+                    target="_blank"
+                  >
+                    Facebook
+                  </a>
                 </div>
                 <picture class="places__picture">
-                  <source 
+                  <source
                     class="places__src"
                     srcset="
                       ./images/places/1x/places_altay_1x.jpg 1x,
@@ -453,25 +465,25 @@
                       ./images/places/3x/places_altay_3x.jpg 3x
                     "
                     type="image/jpeg"
-                  />
+                  >
                   <img
                     class="places__image"
                     src="./images/places/1x/places_altay_1x.jpg"
                     alt="Ноутбук стоящий на открытой веранде. На фоне лес"
-                    />
+                  >
                 </picture>
                 <div class="places__text-container">
                   <p class="places__text">
-                    Алтай — одно из красивейших мест в России.  В первую
-                    очередь из-за гор: если ехать вдоль хребта, вы увидите
-                    склоны, усыпанные соснами, горные реки и озёра. А если вы
-                    откроете в автомобиле окна, сможете познакомиться с
-                    невидимым чудом здешних мест — горным воздухом.
+                    Алтай — одно из красивейших мест в России. В первую очередь
+                    из-за гор: если ехать вдоль хребта, вы увидите склоны,
+                    усыпанные соснами, горные реки и озёра. А если вы откроете
+                    в автомобиле окна, сможете познакомиться с невидимым чудом
+                    здешних мест — горным воздухом.
                   </p>
                   <p class="places__text">
                     Климат на Алтае умеренный, поэтому ехать сюда лучше всего
                     летом. Так вы увидите всё разнообразие местной флоры и
-                    фауны.  По лесам Алтая бродят лоси, над хребтами летают
+                    фауны. По лесам Алтая бродят лоси, над хребтами летают
                     орлы, а на равнинах пасутся косули. И знаменитые манулы —
                     тоже обитатели Алтайского края.
                   </p>
@@ -483,12 +495,16 @@
                 <h3 class="places__title">Зимний Байкал</h3>
                 <div class="places__link-container">
                   <span class="places__link-url-text">URL</span>
-                  <a class="places__link" href="https://vk.com/baikalmile"
-
-                                          target="_blank">https://vk.com/baikalmile</a>
+                  <a
+                    class="places__link"
+                    href="https://vk.com/baikalmile"
+                    target="_blank"
+                  >
+                    https://vk.com/baikalmile
+                  </a>
                 </div>
                 <picture class="places__picture">
-                  <source 
+                  <source
                     class="places__src"
                     srcset="
                       ./images/places/1x/places_baykal_1x.jpg 1x,
@@ -496,12 +512,12 @@
                       ./images/places/3x/places_baykal_3x.jpg 3x
                     "
                     type="image/jpeg"
-                  />
+                  >
                   <img
                     class="places__image"
                     src="./images/places/1x/places_baykal_1x.jpg"
                     alt="Прозрачный лёд озера Байкал"
-                    />
+                  >
                 </picture>
                 <div class="places__text-container">
                   <p class="places__text">
@@ -513,9 +529,9 @@
                     Конечно, это всё так. Но Байкал ещё идеальное место
                     для соревнований по скийорингу. Это такой вид спорта, когда
                     лыжник привязывает себя к мотоциклу, и тандем старается
-                    развить как можно бóльшую скорость на льду. В марте 2019 года
-                    на фестивале «Байкальская миля» был поставлен мировой рекорд
-                    — 197.011 км/ч.
+                    развить как можно бóльшую скорость на льду. В марте 2019
+                    года на фестивале «Байкальская миля» был поставлен мировой
+                    рекорд — 197.011 км/ч.
                   </p>
                 </div>
               </article>
@@ -525,12 +541,16 @@
                 <h3 class="places__title">Карелия</h3>
                 <div class="places__link-container">
                   <span class="places__link-url-text">URL</span>
-                  <a class="places__link" href="http://vodlozero.ru"
-
-                    target="_blank">http://vodlozero.ru/</a>
+                  <a
+                    class="places__link"
+                    href="http://vodlozero.ru"
+                    target="_blank"
+                  >
+                    http://vodlozero.ru/
+                  </a>
                 </div>
                 <picture class="places__picture">
-                  <source 
+                  <source
                     class="places__src"
                     srcset="
                       ./images/places/1x/places_kareliya_1x.jpg 1x,
@@ -538,12 +558,12 @@
                       ./images/places/3x/places_kareliya_3x.jpg 3x
                     "
                     type="image/jpeg"
-                  />
+                  >
                   <img
                     class="places__image"
                     src="./images/places/1x/places_kareliya_1x.jpg"
                     alt="Карельский лес на фоне реки"
-                    />
+                  >
                 </picture>
                 <div class="places__text-container">
                   <p class="places__text">
@@ -552,8 +572,8 @@
                     Зато здесь она вымахивает на 30 метров — леса карельских
                     национальных парков из-за непроходимых болот никогда не
                     знали топора. Некоторым соснам уже больше чем
-                    полтысячелетия.  Прикоснитесь к живому существу, видевшему
-                    солнце раньше, чем увидал его Иван Грозный.  В девственном
+                    полтысячелетия. Прикоснитесь к живому существу, видевшему
+                    солнце раньше, чем увидал его Иван Грозный. В девственном
                     лесу на сотню километров не встретишь тропы. А на редких
                     тропинках деревья в паре метров от земли помечены
                     медвежьими когтями. Чтобы все знали, кто тут хозяин.
@@ -562,83 +582,94 @@
               </article>
             </li>
           </ul>
-      </section>
+        </section>
       </div>
-
-    <div class="container container_width_up-to-1280">
-        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
-      <section class="cover">
-          <div class="cover__overlay">
-            <picture class="cover__picture">
-              <source
-                class="cover__src cover__src_s_desktop"
-                media="(min-width: 1280px)"
-                srcset="
-                  ./images/cover/desktop/cover_desktop_1x.jpg 1x,
-                  ./images/cover/desktop/cover_desktop_2x.jpg 2x,
-                  ./images/cover/desktop/cover_desktop_3x.jpg 3x
-                "
-                type="image/jpeg"
-              />
-              <source
-                class="cover__src cover__src_s_pad-horiz"
-                media="(min-width: 768px) and (max-width: 1279px)"
-                srcset="
-                  ./images/cover/pad-horiz/cover_pad-horiz_1x.jpg 1x,
-                  ./images/cover/pad-horiz/cover_pad-horiz_2x.jpg 2x,
-                  ./images/cover/pad-horiz/cover_pad-horiz_3x.jpg 3x
-                "
-                type="image/jpeg"
-              />
-              <source
-                class="cover__src cover__src_s_pad-vert"
-                media="(min-width: 321px) and (max-width: 767px)"
-                srcset="
-                  ./images/cover/pad-vert/cover_pad-vert_1x.jpg 1x,
-                  ./images/cover/pad-vert/cover_pad-vert_2x.jpg 2x,
-                  ./images/cover/pad-vert/cover_pad-vert_3x.jpg 3x
-                "
-                type="image/jpeg"
-              />
-              <source
-                class="cover__src cover__src_s_mobile"
-                media="(max-width: 320px)"
-                srcset="
-                  ./images/cover/mobile/cover_mobile_1x.jpg 1x,
-                  ./images/cover/mobile/cover_mobile_2x.jpg 2x,
-                  ./images/cover/mobile/cover_mobile_3x.jpg 3x
-                "
-                type="image/jpeg"
-              />
-              <img
-                class="cover__illustration"
-                src="./images/cover/pad-horiz/cover_pad-horiz_1x.jpg"
-                alt="Железнодорожная станция на фоне лучей заката"
-              />
-            </picture>
-          </div>
-          <div class="cover__title-container">
-            <h3 class="cover__title">До Байкала «на собаках»</h3>
-            <p class="cover__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.
-            </p>
-          </div>
-      </section>
+      <div class="container container_width_up-to-1280">
+        <a
+          class="cover__link"
+          href="https://stampsy.com/na-elektrichkakh-do-baikala"
+          target="_blank"
+        >
+          <section class="cover">
+            <div class="cover__overlay">
+              <picture class="cover__picture">
+                <source
+                  class="cover__src cover__src_s_desktop"
+                  media="(min-width: 1280px)"
+                  srcset="
+                    ./images/cover/desktop/cover_desktop_1x.jpg 1x,
+                    ./images/cover/desktop/cover_desktop_2x.jpg 2x,
+                    ./images/cover/desktop/cover_desktop_3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                >
+                <source
+                  class="cover__src cover__src_s_pad-horiz"
+                  media="(min-width: 768px) and (max-width: 1279px)"
+                  srcset="
+                    ./images/cover/pad-horiz/cover_pad-horiz_1x.jpg 1x,
+                    ./images/cover/pad-horiz/cover_pad-horiz_2x.jpg 2x,
+                    ./images/cover/pad-horiz/cover_pad-horiz_3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                >
+                <source
+                  class="cover__src cover__src_s_pad-vert"
+                  media="(min-width: 321px) and (max-width: 767px)"
+                  srcset="
+                    ./images/cover/pad-vert/cover_pad-vert_1x.jpg 1x,
+                    ./images/cover/pad-vert/cover_pad-vert_2x.jpg 2x,
+                    ./images/cover/pad-vert/cover_pad-vert_3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                >
+                <source
+                  class="cover__src cover__src_s_mobile"
+                  media="(max-width: 320px)"
+                  srcset="
+                    ./images/cover/mobile/cover_mobile_1x.jpg 1x,
+                    ./images/cover/mobile/cover_mobile_2x.jpg 2x,
+                    ./images/cover/mobile/cover_mobile_3x.jpg 3x
+                  "
+                  type="image/jpeg"
+                >
+                <img
+                  class="cover__illustration"
+                  src="./images/cover/pad-horiz/cover_pad-horiz_1x.jpg"
+                  alt="Железнодорожная станция на фоне лучей заката"
+                >
+              </picture>
+            </div>
+            <div class="cover__title-container">
+              <h3 class="cover__title">До Байкала «на собаках»</h3>
+              <p class="cover__subtitle">
+                По мотивам учебной темы о Транссибе — путешествие от столицы до
+                Байкала на электричках.
+              </p>
+            </div>
+          </section>
         </a>
-    </div>
-  </main>
-
-  <footer class="footer container container_margin_std-margin-top container_type_flex">
-    <nav class="footer__nav">
-      <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+      </div>
+    </main>
+    <footer class="footer container container_margin_std-margin-top container_type_flex">
+      <nav class="footer__nav">
+        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">
+          Карты
+        </a>
+        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">
+          Погода
+        </a>
+        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">
+          Расписание
+        </a>
+        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">
+          Календарь
+        </a>
+        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">
+          Путешествия
+        </a>
       </nav>
       <p class="footer__copy">© 2020. Фёдор Шенделов</p>
     </footer>
-
   </body>
 </html>
