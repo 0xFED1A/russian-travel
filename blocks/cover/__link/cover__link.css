@@ -1,0 +1,11 @@
+/* rules for cover__link element */
+
+.cover__link {
+  text-decoration: none;
+  
+  color: #fff;
+}
+
+.cover__link:hover .cover__overlay {
+  opacity: 0.2;
+}
