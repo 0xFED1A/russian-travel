@@ -64,3 +64,10 @@
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
 @import url("../blocks/cover/__title-container/cover__title-container.css");
 @import url("../blocks/cover/__title/cover__title.css");
+
+/* import footer */
+
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__nav/footer__nav.css");
+@import url("../blocks/footer/__copy/footer__copy.css");
+@import url("../blocks/footer/__link/footer__link.css");
