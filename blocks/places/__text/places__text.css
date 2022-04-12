@@ -14,12 +14,6 @@
   margin: 0;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .places__text {
-    line-height: 162%;
-  }
-}
-
 @media screen and (max-width: 1023px) {
   .places__text {
     margin: 0 0 24px 0;
