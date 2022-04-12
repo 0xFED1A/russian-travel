@@ -16,7 +16,7 @@
   display: block;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .header__lang-switch {
     font-size: 18px;
     line-height: 20px;

@@ -10,7 +10,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 320px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .lead__caption {
     line-height: 11px;
   }
@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .lead__caption {
     margin-left: 16px;
   }

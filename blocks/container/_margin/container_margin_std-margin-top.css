@@ -10,7 +10,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .container_margin_std-margin-top {
     margin-top: 64px;
   }

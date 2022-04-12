@@ -14,7 +14,7 @@
   column-gap: 18px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .footer__nav-list {
     flex-direction: column;
     column-gap: 0;
