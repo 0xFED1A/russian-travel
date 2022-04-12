@@ -12,6 +12,8 @@
   border-bottom: 2px solid #2a2c2f;
 
   color: #fff;
+
+  display: block;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
