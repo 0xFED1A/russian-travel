@@ -9,6 +9,8 @@
   transition: opacity 0.3s ease-in-out;
 
   color: #fff;
+
+  display: block;
 }
 
 .footer__link:hover {
