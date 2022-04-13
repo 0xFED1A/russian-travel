@@ -61,10 +61,9 @@
 
 /* import cover */
 @import url("../blocks/cover/cover.css");
-@import url("../blocks/cover/__illustration/cover__illustration.css");
+@import url("../blocks/cover/__text/cover__text.css");
 @import url("../blocks/cover/__overlay/cover__overlay.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
-@import url("../blocks/cover/__title-container/cover__title-container.css");
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__link/cover__link.css");
 

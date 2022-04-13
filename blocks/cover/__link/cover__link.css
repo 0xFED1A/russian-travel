@@ -1,11 +1,23 @@
 /* rules for cover__link element */
 
 .cover__link {
+  width: 100%;
+  height: 0;
+
+  /* height: 0; and padding-top: 62.5%; properties
+   * are required to keep correct aspect ratio
+   * for scaling
+   */
+  padding-top: 62.5%;
+
   text-decoration: none;
 
   color: #fff;
-}
 
-.cover__link:hover .cover__overlay {
-  opacity: 0.2;
+  background: top left / cover
+    url("../../../images/cover/desktop/cover_desktop_1x.jpg");
+
+  display: block;
+
+  position: relative;
 }
