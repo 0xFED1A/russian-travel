@@ -1,7 +1,0 @@
-/* rules for container_width_up-to-768 modifier */
-
-@media screen and (max-width: 767px) {
-  .container_width_up-to-768 {
-    width: 100%;
-  }
-}
